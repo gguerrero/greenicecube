@@ -1,0 +1,15 @@
+<footer>
+  <nav class="round">
+    <ul>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
+      <li><a href="http://news.railstutorial.org/" target="_blank">News</a></li>
+      <li><a href="http://www.railstutorial.org/" target="_blank">Rails Tutorial</a></li>
+    </ul>
+  </nav>
+</footer>
+
+<br/><br/>
+<div>
+  <h4><%= debug(params) if Rails.env.development? %></h4>
+</div>
