@@ -1,5 +1,26 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# Localization file for English.
 
 en:
-  hello: "Hello world"
+  title:
+    home: "Home"
+    about: "About"
+    contact: "Contact"
+  pages:
+    home:
+      header: "Free Expenses Manager"
+      text: >
+        Welcome to the fastest and free expenses manager at RoR world.
+    about:
+      header: "About GreenIceCube"
+      text: >
+        This web site was developed by %{developer}.
+    contact:
+      header: "Contact GreenIceCube"
+      text: >
+        Mail me at 
+  models:
+    user:
+      name: "My Name"
+      email: "My Email"
+      password: "Set password baby"
+      password_confirmation: "Confirm password baby"

@@ -1,5 +1,3 @@
-<h1>About GreenIceCube</h1>
-
-<p>
-  This web site was developed by Guillermo Guerrero.
-</p>
+<%= content_tag(:h1, I18n.t('pages.about.header')) %>
+<%= content_tag(:p, I18n.t('pages.about.text',
+                            developer: "Guillermo Guerrero")) %>
