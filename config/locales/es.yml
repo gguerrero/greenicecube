@@ -1,0 +1,28 @@
+# Localization file for Spanish.
+
+es:
+  title:
+    home: "Inicio"
+    about: "Info"
+    contact: "Contacto"
+    user:
+      new: "Nuevo Usuario"
+  pages:
+    home:
+      header: "Gestor de gastos gratuito"
+      text: >
+        Bienvenido al mas rápido gestor de gastos del mundo RoR.
+    about:
+      header: "Información sobre GreenIceCube"
+      text: >
+        Este web site fue desarrollado por %{developer}.
+    contact:
+      header: "Contacto GreenIceCube"
+      text: >
+        Escribe un mail a  
+  models:
+    user:
+      name: "Nombre"
+      email: "Email"
+      password: "Contraseña"
+      password_confirmation: "Confirmación de contraseña"

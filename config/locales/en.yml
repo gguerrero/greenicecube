@@ -7,6 +7,8 @@ en:
     contact: "Contact"
     user:
       new: "New User"
+      index: "Index"
+      edit: "Edit User"
   pages:
     home:
       header: "Free Expenses Manager"
@@ -20,6 +22,10 @@ en:
       header: "Contact GreenIceCube"
       text: >
         Mail me at 
+  flash:
+    user:
+      new:
+        success: Welcome to GreenIceCube %{user}
   models:
     user:
       name: "My Name"

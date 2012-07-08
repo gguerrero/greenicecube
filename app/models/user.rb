@@ -16,8 +16,8 @@ class User < ActiveRecord::Base
                         format: { with: email_regexp }
   validates :password,  presence: true,
                         confirmation: true,
-                        length: { within: 6..25 },
-                        format: { with: password_regexp }
+                        length: { within: 6..25 }
+                        #format: { with: password_regexp }
 
   before_save :encrypt_password
 
