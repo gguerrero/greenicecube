@@ -11,6 +11,7 @@ gem 'jquery-ui-rails'
 
 # Database
 gem 'sqlite3'
+gem 'sqlite3-ruby', '1.2.5', :group => :development
 
 # Pagination
 gem 'will_paginate'
