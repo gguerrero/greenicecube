@@ -5,6 +5,8 @@ en:
     home: "Home"
     about: "About"
     contact: "Contact"
+    user:
+      new: "New User"
   pages:
     home:
       header: "Free Expenses Manager"
